@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+
+.header{
+    text-align: center;
+    text-shadow: 3px 3px 5px #000000;
+    background-color: hwb(0 45% 0%);
+    padding: 32px;
+    color: #ffffff;
+    font-size: x-large;
+}
+
+
+/* FLEX-CONTAINER */
+.gallery{
+    background-image: url(https://github.com/suengit6/CozyChic-Images-Final/blob/main/BG-image/rosegold-roses.jpg?raw=true);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 16px;
+    
+}
+
+/* FLEX-ITEMS */
+.gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
